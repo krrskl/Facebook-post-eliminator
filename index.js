@@ -18,11 +18,11 @@ function scrapePage() {
     document.getElementsByClassName("_43rl")[4].click();
 
     try {
-      /* document
+      document
         .getElementsByClassName(
           "layerCancel _4jy0 _4jy3 _4jy1 _51sy selected _42ft"
         )
-        [cont].click(); */
+        [cont].click();
       cont++;
     } catch (e) {
       console.warn(" XXXXXX " + e + " XXXXXX");
@@ -31,7 +31,7 @@ function scrapePage() {
     position = 0;
 
     setTimeout(() => {
-      //   scrapePage();
+      scrapePage();
     }, 10000);
     console.log(
       "%cEliminando contenido...",
